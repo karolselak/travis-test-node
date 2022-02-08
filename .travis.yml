@@ -9,5 +9,5 @@ script:
  - node hello.js
 os: linux
 group: stable
-dist: trusty
+dist: rhel
 
