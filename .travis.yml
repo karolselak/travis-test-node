@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+ - "10.24.1"
+ - "12.22.7"
+ - "14.18.1"
+ - "16.13.0"
+ - "17.1.0"
+script:
+ - node hello.js
+os: linux
+group: stable
+dist: trusty
+
